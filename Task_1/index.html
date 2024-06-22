@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanderlust Journeys</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+  
+</head>
+<body>
+
+  <header class="header d-flex justify-content-between align-items-center py-3">
+    <a href="#" class="text-decoration-none text-light fs-3 fw-bold">Wanderlost Journeys</a>
+    <nav class="nav">
+      <a class="nav-link active me-3" href="#">Home</a>
+      <a class="nav-link me-3" href="#">Tours</a>
+      <a class="nav-link me-3" href="#">About Us</a>
+      <a class="nav-link me-3" href="#">Reviews</a>
+      <a class="nav-link me-3" href="#">Gallery</a>
+      <a class="nav-link me-3" href="#">FAQ</a>
+      <a class="nav-link" href="#">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="hero d-flex align-items-center justify-content-center">
+    <div class="container text-center text-light">
+      <h1>Explore the World, One Adventure at a Time</h1>
+      <p class="lead mb-4">Wanderlust Journeys offers curated tours to breathtaking destinations, creating unforgettable travel experiences.</p>
+      <a href="#" class="btn btn-lg btn-warning shadow">Book Your Tour</a>
+    </div>
+  </section>
+
+  
+
+  <section class="gallery pb-5 justify-content-center">
+    <div class="container text-center text-light">
+      <h2 class="text-center mb-4">Explore Our Destinations</h2>
+      <div id="scrollGallery" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/maldives.jpg" class="d-block w-100 img-fluid" alt="Maldives beach">
+          </div>
+          <div class="carousel-item">
+            <img src="images/paris.jpg" class="d-block w-100 img-fluid" alt="Paris cityscape">
+          </div>
+          <div class="carousel-item">
+            <img src="images/canyon.jpg" class="d-block w-100 img-fluid" alt="Grand Canyon">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4">
+          <h3 class="text-light">Explore More</h3>
+          <div id="destinationGallery" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/mountain.jpg" class="d-block w-100 img-fluid" alt="Mountain landscape">
+              </div>
+              <div class="carousel-item">
+                <img src="images/city.jpg" class="d-block w-100 img-fluid" alt="Cityscape">
+              </div>
+              <div class="carousel-item">
+                <img src="images/beach.jpeg" class="d-block w-100 img-fluid" alt="Beach">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 mb-4">
+          <h3 class="text-light">Contact Us</h3>
+          <p class="text-light">
+            <a href="#" class="text-light text-decoration-none">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                <path d="M.05 3.555A2 2 0 0 1 2 5.5v.068l.64 1.549A.5.5 0 0 0 2.643 8L2 6.667C1.233 7.467.5 8.743.5 10.5v.5c0 1.761.805 3.213 1.87 4.208A1.5 1.5 0 0 0 4 15.5h8a1.5 1.5 0 0 0 1.5-1.5v-.5c0-1.761-.805-3.213-1.87-4.208A1.5 1.5 0 0 0 12 10.5v-.5a.5.5 0 0 0-.643-.549L13.357 8zM 5.5 13.5a.5.5 0 0 1 .5-.5H10.5a.5.5 0 0 1 .5.5v.5a.5.5 0 0 1-.5.5H5.5a.5.5 0 0 1-.5-.5v-.5z"/>
+              </svg>
+            </a>
+            info@wanderlostjourneys.com
+          </p>
+          <p class="text-light">
+            <a href="#" class="text-light text-decoration-none">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.309 14.601c.296.59.792.967 1.49 1.185A17.476 17.476 0 0 1 4.573 16H11.427A17.476 17.476 0 0 1 13.011 14.416c.287-.59.788-.967 1.49-1.185l.684-.946A1.49 1.49 0 0 0 16.121 12.5c-.47-.34-1.004-.804-1.531-1.329L14.002 10.5a.5.5 0 0 1-.5-.5H1.707a.5.5 0 0 1-.5.5l-.684.946c-.504.287-.974.6-.481 1.039z"/>
+              </svg>
+            </a>
+            <p class="text-light">
+              <a href="#" class="text-light text-decoration-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M\040.002 0a.002.002 0 0 1 .002.002v.092C.002.37.398.927.947 1.13\040L16.009 15.05c.218.104.448.175.69.248a.147.147 0 0 1 .057.015zM\04014.818a.147.147 0 0 1-.057-.015\040L2.277 2.87a.147.147 0 0 1-.015-.057C1.06 1.002.37.398.002.093v-.092zM\0404.06 7.469L14.05 1.409a.147.147 0 0 1 .212-.07L16.569 2.559a.147.147 0 0 1 .07.212C16.859 3.283 16.173 4.01 14.92 4.418zM\040.771 10.61a.147.147 0 0 1-.07-.212L2.559 14.05a.147.147 0 0 1-.07.212C1.859 15.323 2.673 16.14 4.418 16.429zM\0409.302 8.63L1.471 16.48a.147.147 0 0 1-.07.212C.783 16.763 1.505 17.08 2.277 16.869L8.59 10.82a.147.147 0 0 1 .212-.07zM\0408.028 4.418a.147.147 0 0 1 .07-.212L10.61 1.409a.147.147 0 0 1 .212-.07L12.14 2.559a.147.147 0 0 1 .07.212C12.421 3.283 11.737 4.01 10.504 4.418z"/>
+                </svg>
+              </a>
+              +1 234 567 8900
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+</body>
+</html>
